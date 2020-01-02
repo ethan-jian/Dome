@@ -22,24 +22,30 @@
             <artifactId>testng</artifactId>
             <version>6.11</version>
         </dependency>
+        <!--依懒selenium-->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.0.0</version>
+        </dependency>
         <!--依懒selenium-firefox-driver-->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-firefox-driver</artifactId>
-            <version>3.5.3</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.seleniumhq.selenium</groupId>-->
+<!--            <artifactId>selenium-firefox-driver</artifactId>-->
+<!--            <version>3.5.3</version>-->
+<!--        </dependency>-->
         <!--依懒selenium-chrome-driver-->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-            <version>3.5.3</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.seleniumhq.selenium</groupId>-->
+<!--            <artifactId>selenium-chrome-driver</artifactId>-->
+<!--            <version>3.5.3</version>-->
+<!--        </dependency>-->
         <!--依懒selenium-safari-driver-->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-safari-driver</artifactId>
-            <version>2.46.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.seleniumhq.selenium</groupId>-->
+<!--            <artifactId>selenium-safari-driver</artifactId>-->
+<!--            <version>2.46.0</version>-->
+<!--        </dependency>-->
         <!--依懒reportng，解除testng的绑定报告-->
         <dependency>
             <groupId>org.uncommons</groupId>
