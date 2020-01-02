@@ -1,33 +1,32 @@
 package flows;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import javax.lang.model.element.Element;
 import java.util.List;
 
 public class Base {
 
     public WebDriver driver;
 
-    public WebElement locateElement(String expression) {
+    public WebElement[] locateElement(String expression) {
         /**
          * 元素xpath定位
          * @expression传入的xpath表达式
          * @return一组元素
          */
-        List<WebElement> webElements = (new WebDriverWait(driver, 5)).until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(expression)));
-//        WebElement webElement = webElements.get(0);
+        List<WebElement> elements_list = (new WebDriverWait(driver, 5)).until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath(expression)));
 
-        return webElements;
+        return elements_list.toArray(WebElement[]::new);
     }
 
-    public void  clickElement(WebElement element) {
+    public void  clickElement(String expression) {
+
+        return this.locateElement(expression).g;
 
     }
 
