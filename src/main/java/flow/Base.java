@@ -6,10 +6,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+import java.io.*;
+import java.util.Properties;
 import java.util.List;
+import java.util.ResourceBundle;
 
 public class Base {
+    private static String URL;
 
     public WebDriver driver;
 
@@ -22,15 +25,25 @@ public class Base {
         }
 
         return webElements;
-
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
+        try {
+//            InputStream inputStream = Base.class.getClassLoader().getResource("resources/config.properties").openStream();
+            Properties properties = new Properties();
+            properties.load(new FileInputStream("config.properties"));
+            URL = properties.getProperty("url");
+            System.out.println(URL);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
         Base base = new Base();
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 //        WebDriver driver = new ChromeDriver();
         base.driver = new ChromeDriver();
-        base.driver.get("https://www.baidu.com/");
+        base.driver.get(URL);
         System.out.println(base.exceElement("//*[@id=\"u1\"]//a"));
     }
 }

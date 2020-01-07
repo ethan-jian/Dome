@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9031a97f-9147-4781-8631-97393cf36b5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flow/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flow/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flow/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flow/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML Properties File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,9 +49,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Base">
     <configuration name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="flow.Base" />
       <module name="Dome" />
@@ -90,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Base" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="TestNG.Login" />
       </list>
     </recent_temporary>
@@ -154,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578320706159</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;test      iiiii&quot;">
+      <created>1578402267539</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578402267539</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&quot;test      iiiii&quot;">
+      <created>1578402310286</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578402310286</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -170,10 +191,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577980733481" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1578402263669">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1578402309063">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578402263669" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578402309063" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1577985603795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -182,30 +203,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="259" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1577984690193" />
-    <state width="1322" height="222" key="GridCell.Tab.0.bottom" timestamp="1578158751658">
+    <state width="1322" height="217" key="GridCell.Tab.0.bottom" timestamp="1578418005416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578158751658" />
-    <state width="1322" height="222" key="GridCell.Tab.0.center" timestamp="1578158751658">
+    <state width="1322" height="217" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578418005416" />
+    <state width="1322" height="217" key="GridCell.Tab.0.center" timestamp="1578418005416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="222" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578158751658" />
-    <state width="1322" height="222" key="GridCell.Tab.0.left" timestamp="1578158751658">
+    <state width="1322" height="217" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578418005416" />
+    <state width="1322" height="217" key="GridCell.Tab.0.left" timestamp="1578418005415">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="222" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578158751658" />
-    <state width="1322" height="222" key="GridCell.Tab.0.right" timestamp="1578158751658">
+    <state width="1322" height="217" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578418005415" />
+    <state width="1322" height="217" key="GridCell.Tab.0.right" timestamp="1578418005416">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="222" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578158751658" />
-    <state x="47" y="0" key="SettingsEditor" timestamp="1577987364732">
+    <state width="1322" height="217" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578418005416" />
+    <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1578418005418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="47" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577987364732" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1578320723783">
+    <state width="1322" height="217" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578418005418" />
+    <state width="1322" height="217" key="GridCell.Tab.1.center" timestamp="1578418005417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578320723783" />
+    <state width="1322" height="217" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578418005417" />
+    <state width="1322" height="217" key="GridCell.Tab.1.left" timestamp="1578418005417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578418005417" />
+    <state width="1322" height="217" key="GridCell.Tab.1.right" timestamp="1578418005417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578418005417" />
+    <state x="47" y="0" key="SettingsEditor" timestamp="1578403355306">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="47" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578403355306" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1578402321947">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1578402321947" />
     <state x="363" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1578402175058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
